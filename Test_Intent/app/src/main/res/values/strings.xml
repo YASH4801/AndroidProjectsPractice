@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test_Intent</string>
+    <string name="capture_btn_text">Click</string>
+    <string name="image_placeholder">Placeholder for displaying the captured image</string>
+</resources>

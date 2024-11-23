@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070707"
+    tools:context=".Welcome">
+
+    <TextView
+        android:id="@+id/welcome_label"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:autoText="false"
+        android:background="#F44336"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#5E08F6"
+        android:text="WELCOME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <TextView
+            android:id="@+id/email_label"
+            android:layout_width="85dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="28dp"
+            android:text="Email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/email_display_box"
+            app:layout_constraintEnd_toStartOf="@+id/email_display_box"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastName_label" />
+
+
+        <TextView
+            android:id="@+id/email_display_box"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/lastName_display_box"
+            app:layout_constraintStart_toStartOf="@+id/lastName_display_box"
+            app:layout_constraintTop_toBottomOf="@+id/lastName_display_box" />
+
+        <TextView
+            android:id="@+id/firstName_display_box"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="84dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/firstName_label"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_label" />
+
+        <TextView
+            android:id="@+id/firstName_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="FirstName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.103"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_label" />
+
+        <TextView
+            android:id="@+id/lastName_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="LastName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/lastName_display_box"
+            app:layout_constraintEnd_toStartOf="@+id/lastName_display_box"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstName_label" />
+
+        <TextView
+            android:id="@+id/lastName_display_box"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="80dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstName_display_box" />
+
+        <Button
+            android:id="@+id/ext_btn"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:background="#C9072D"
+            android:backgroundTint="#FF0909"
+            android:text="EXIT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColorLink="#FF0000"
+            app:cornerRadius="200dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email_display_box"
+            app:layout_constraintVertical_bias="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>

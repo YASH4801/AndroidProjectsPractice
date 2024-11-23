@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginSignUpRealTime</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login_label">Login</string>
+    <string name="signup_label">Sign Up</string>
+
+
+    <string name="create_user_label">Create User</string>
+    <string name="confirm_password">Re enter your Password</string>
+</resources>
