@@ -4,6 +4,7 @@
     <option name="MigrateToGradleLocalJavaHome">
       <set>
         <option value="$PROJECT_DIR$/FragmentFest" />
+        <option value="$PROJECT_DIR$/TapCalci" />
       </set>
     </option>
   </component>
