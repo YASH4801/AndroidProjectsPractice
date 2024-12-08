@@ -20,4 +20,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Test_Intent"
-include(":app")
+include(":CustomAdapterApp")

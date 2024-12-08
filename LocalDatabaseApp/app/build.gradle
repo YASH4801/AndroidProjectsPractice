@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.app.localdatabaseapp'
+    namespace 'com.CustomAdapterApp.localdatabaseapp'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.app.localdatabaseapp"
+        applicationId "com.CustomAdapterApp.localdatabaseapp"
         minSdk 24
         targetSdk 34
         versionCode 1

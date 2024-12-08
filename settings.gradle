@@ -1,0 +1,3 @@
+
+project(':CustomAdapterApp').projectDir = new File(rootDir, 'CustomAdapters/CustomAdapterApp/')
+include ':CustomAdapterApp'

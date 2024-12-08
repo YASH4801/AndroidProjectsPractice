@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.app.tapcalc'
+    namespace 'com.CustomAdapterApp.tapcalc'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.app.tapcalc"
+        applicationId "com.CustomAdapterApp.tapcalc"
         minSdk 23
         targetSdk 34
         versionCode 1

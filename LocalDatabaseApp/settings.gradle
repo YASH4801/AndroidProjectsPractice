@@ -20,4 +20,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "LocalDatabaseApp"
-include ':app'
+include ':CustomAdapterApp'

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.app.test_intent"
+    namespace = "com.CustomAdapterApp.test_intent"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.app.test_intent"
+        applicationId = "com.CustomAdapterApp.test_intent"
         minSdk = 34
         targetSdk = 34
         versionCode = 1

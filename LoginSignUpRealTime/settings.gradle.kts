@@ -23,4 +23,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "LoginSignUpRealTime"
-include(":app")
+include(":CustomAdapterApp")

@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.app.loginsignuprealtime"
+    namespace = "com.CustomAdapterApp.loginsignuprealtime"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.app.loginsignuprealtime"
+        applicationId = "com.CustomAdapterApp.loginsignuprealtime"
         minSdk = 22
         targetSdk = 34
         versionCode = 1
