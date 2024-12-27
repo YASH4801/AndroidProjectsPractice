@@ -1,3 +1,7 @@
+import org.apache.tools.ant.util.JavaEnvUtils.JAVA_1_8
+import org.gradle.api.JavaVersion.VERSION_17
+import org.gradle.api.JavaVersion.VERSION_1_8
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -6,7 +10,7 @@ plugins {
 
 android {
     namespace = "com.personal.rapidmeme"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.personal.rapidmeme"
@@ -28,11 +32,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = VERSION_17
+        targetCompatibility = VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
     buildFeatures {
         compose = true
